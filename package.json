@@ -1,0 +1,29 @@
+{
+  "name": "monlivre_app",
+  "version": "1.0.0",
+  "description": "application for booking books",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elhilali-hA/Monlivre_graphql.git"
+  },
+  "author": "hamza_elhilali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elhilali-hA/Monlivre_graphql/issues"
+  },
+  "homepage": "https://github.com/Elhilali-hA/Monlivre_graphql#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
